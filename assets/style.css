@@ -1,0 +1,52 @@
+/*Обертка галереи изображений*/
+.gallery {
+  margin-bottom: 20px;
+  height: 26rem;
+}
+
+/*Заголовок галереи*/
+.gallery__title {
+  text-align: center;
+}
+
+/*Обертка внутренней части галерии*/
+.gallery__blok {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+/*Картинка в галерее*/
+.gallery__img {
+  width: 100%;
+  max-width: 40%;
+  object-fit: cover;
+  background-size: cover;
+}
+
+/*Обертка блока с кнопками*/
+.gallery__button {
+  display: flex;
+  justify-content: space-between;
+  min-width: 90%;
+}
+
+/*Кнопка галереи*/
+.gallery__button_click {
+  padding: 5px;
+  font-size: 20px;
+  color: white;
+  border: none;
+  background: #0c6a86;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: max-content;
+  width: 100px;
+}
+
+.gallery__button_click:focus {
+  border: 3px solid rgb(90, 79, 79);
+}

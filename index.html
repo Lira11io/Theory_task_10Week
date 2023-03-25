@@ -20,6 +20,7 @@
           <li>Function Expression</li>
           <li>Стрелочные функции (arrow functions)</li>
         </ul>
+        <br />
         <li>
           Приведите примеры вызова одной и той же функции всеми известными вам
           способами.
@@ -50,6 +51,7 @@
             console.log(sum(1,2));
           </li>
         </ol>
+        <br />
         <li>
           В чём разница между тестированием и отладкой (дебаггингом)? А что
           такое логирование?
@@ -150,7 +152,25 @@
         </li>
       </ol>
     </section>
-
+    <section class="gallery">
+      <h2 class="gallery__title">Cat`s gallery</h2>
+      <div class="gallery__blok">
+        <img
+          class="gallery__img"
+          src="assets/img/cat_forest.jpg"
+          alt="forest cat"
+          id="img"
+        />
+        <div class="gallery__button">
+          <button class="gallery__button_click" onclick="preShowFoto()">
+            Previous
+          </button>
+          <button class="gallery__button_click" onclick="nextShowFoto()">
+            Next
+          </button>
+        </div>
+      </div>
+    </section>
     <script src="index.js"></script>
   </body>
 </html>

@@ -7,6 +7,18 @@ console.log(message());
 const showMessage = () => console.log("Я учу JavaScript!");
 showMessage();
 
+//Ответ на 2 практическое
+
+const imgGallery = document.getElementById("img");
+
+const preShowFoto = () => {
+  imgGallery.src = "assets/img/cat_ciam.jpg";
+};
+
+const nextShowFoto = () => {
+  imgGallery.src = "assets/img/cat_somaly.jpg";
+};
+
 /* function sum(a, b) {
   return a + b;
 }
