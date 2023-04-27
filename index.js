@@ -9,7 +9,8 @@ showMessage();
 
 //Ответ на 2 практическое
 
-const imgGallery = document.getElementById("img");
+//Первая версия
+/* const imgGallery = document.getElementById("img");
 
 const preShowFoto = () => {
   imgGallery.src = "assets/img/cat_ciam.jpg";
@@ -17,6 +18,16 @@ const preShowFoto = () => {
 
 const nextShowFoto = () => {
   imgGallery.src = "assets/img/cat_somaly.jpg";
+}; */
+
+//Вторая версия
+const switchFoto = (isNext) => {
+  const imgGallery = document.getElementById("img");
+  if (isNext) {
+    imgGallery.src = "assets/img/cat_somaly.jpg";
+  } else {
+    imgGallery.src = "assets/img/cat_ciam.jpg";
+  }
 };
 
 /* function sum(a, b) {
