@@ -9,7 +9,7 @@ showMessage();
 
 //Ответ на 2 практическое
 
-//Первая версия
+//Первая версия кода
 /* const imgGallery = document.getElementById("img");
 
 const preShowFoto = () => {
